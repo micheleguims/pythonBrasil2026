@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [TEXTO EDITÁVEL: TÍTULO DA ABA DO NAVEGADOR] -->
+    <title>Proposta de Participação - Python Brasil 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        py: {
+                            dark: '#111110',
+                            neon: '#b4f907',
+                            pastel: '#e0ebb4',
+                            magenta: '#be5096',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111110;
+        }
+        /* Efeito de brilho neon suave configurado com a nova paleta */
+        .neon-shadow {
+            box-shadow: 0 0 20px rgba(180, 249, 7, 0.15); /* #b4f907 */
+        }
+        .card-hover {
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            border-color: #b4f907; /* py-neon */
+            box-shadow: 0 10px 25px -3px rgba(190, 80, 150, 0.15); /* Sombra magenta suave no hover */
+        }
+    </style>
+</head>
+<body class="bg-py-dark text-neutral-300 selection:bg-py-magenta selection:text-white">
+
+    <!-- Header -->
+    <header class="border-b border-white/5 bg-py-dark/80 backdrop-blur-md text-white shadow-lg relative overflow-hidden py-12">
+        <!-- Detalhe decorativo de grade tecnológica ao fundo -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+        
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <div class="flex flex-col items-center justify-center mb-4">
+                <!-- Ícone -->
+                <svg class="w-16 h-16 mr-4 text-py-neon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+                <!-- [TEXTO EDITÁVEL: NOME PRINCIPAL DO EVENTO NO CABEÇALHO - Destaque em Pastel] -->
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white uppercase">
+                    Python <span class="text-py-pastel font-black">Brasil 2026</span>
+                </h1>
+            </div>
+            <!-- [TEXTO EDITÁVEL: SUBTÍTULO DO CABEÇALHO] -->
+            <p class="text-xl md:text-2xl font-bold text-neutral-300">Proposta de Participação</p>
+            
+            <!-- [TEXTO EDITÁVEL: LOCAL E DATA NO TOPO - Badge em Magenta para criar contraste elegante] -->
+            <div class="inline-block bg-py-magenta/10 border border-py-magenta/30 text-py-magenta text-xs font-bold px-4 py-1.5 rounded-full mt-4 tracking-wider uppercase">
+                Florianópolis - SC | 14 a 19 de Outubro
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-6 md:p-12 max-w-6xl">
+
+        <!-- Visão Geral -->
+        <section id="overview" class="mb-16">
+            <!-- [TEXTO EDITÁVEL: TÍTULO DA SEÇÃO SOBRE O EVENTO] -->
+            <h2 class="text-3xl font-bold text-center mb-8 text-white tracking-wider">
+                Oportunidade de Capacitação
+            </h2>
+            <div class="bg-white/5 p-8 rounded-xl shadow-2xl border border-white/10 max-w-4xl mx-auto relative backdrop-blur-sm">
+                <!-- Indicador lateral fino em Verde Neon -->
+                <div class="absolute left-0 top-0 bottom-0 w-1 bg-py-neon rounded-l-xl"></div>
+                
+                <!-- [TEXTO EDITÁVEL: SUBTÍTULO DO BLOCO SOBRE - Amarelo Pastel] -->
+                <h3 class="text-2xl font-bold mb-4 text-py-pastel uppercase tracking-wide">Resumo do Evento</h3>
+                
+                <!-- [TEXTO EDITÁVEL: PARÁGRAFO 1 DO "SOBRE O EVENTO"] -->
+                <p class="mb-4 text-neutral-300 leading-relaxed text-lg">
+                    A <strong class="text-py-pastel">Python Brasil</strong> é a <strong>maior conferência de tecnologia Python da América Latina</strong>, um ambiente focado em <strong class="text-py-neon">INOVAÇÃO</strong> e na troca de <strong class="text-py-neon">CONHECIMENTO PRÁTICO</strong>, organizado com apoio da APyB (Associação Python Brasil)</strong>.
+                </p>
+                
+                <!-- [TEXTO EDITÁVEL: PARÁGRAFO 2 DO "SOBRE O EVENTO"] -->
+                <p class="mb-6 text-neutral-300 leading-relaxed text-lg">
+                    O evento é uma oportunidade única para capacitar equipes, otimizar processos e descobrir soluções tecnológicas de ponta que podem ser aplicadas para modernizar e agregar eficiência aos serviços, <strong class="text-py-pastel">especialmente no setor público</strong>.
+                </p>
+                
+                <div class="space-y-3.5 text-left border-t border-white/10 pt-6 mt-6">
+                    <!-- [TEXTO EDITÁVEL: DETALHES DE DATAS E CRONOGRAMA - Marcadores em Magenta] -->
+                    <p class="flex items-start gap-2">
+                        <span class="text-py-magenta mt-1">■</span> 
+                        <span><strong>Data:</strong> 14 a 19 de Outubro de 2026</span>
+                    </p>
+                    <p class="flex items-start gap-2">
+                        <span class="text-py-magenta mt-1">■</span> 
+                        <span><strong>Horário:</strong> 09 às 18 horas</span>
+                    </p>
+                    <p class="flex items-start gap-2">
+                        <span class="text-py-magenta mt-1">■</span> 
+                        <span><strong>Dividido em 3 etapas:</strong> Tutorias/Workshops (14 e 15 de Outubro), Evento Principal (16 a 18 de Outubro) e Sprints de Software Livre (19 de Outubro)</span>
+                    </p>
+                    <p class="flex items-start gap-2">
+                        <span class="text-py-magenta mt-1">■</span> 
+                        <span><strong>Local:</strong> Florianópolis, SC</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios e Foco em Tecnologia -->
+        <section id="benefits" class="mb-16">
+            <!-- [TEXTO EDITÁVEL: TÍTULO DA SEÇÃO PILARES DE APRENDIZADO] -->
+            <h2 class="text-3xl font-bold text-center mb-10 text-white tracking-wider">
+                Pilares de Aprendizado
+            </h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white/5 p-6 rounded-xl shadow-lg text-center card-hover border border-white/10 backdrop-blur-sm">
+                    <div class="flex justify-center items-center mb-4 h-16 w-16 mx-auto bg-py-dark rounded-full border border-white/10">
+                         <svg class="h-8 w-8 text-py-neon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
+                    </div>
+                    <!-- [TEXTO EDITÁVEL: TÍTULO CARD 1] -->
+                    <h3 class="text-lg font-bold mb-3 text-py-pastel uppercase tracking-wide">Software Livre</h3>
+                    <!-- [TEXTO EDITÁVEL: TEXTO CARD 1] -->
+                    <p class="text-sm text-neutral-400">Aprendizado "mão na massa" que garante a absorção do conhecimento e a aplicação imediata das novas tecnologias nos projetos internos.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white/5 p-6 rounded-xl shadow-lg text-center card-hover border border-white/10 backdrop-blur-sm">
+                    <div class="flex justify-center items-center mb-4 h-16 w-16 mx-auto bg-py-dark rounded-full border border-white/10">
+                         <svg class="h-8 w-8 text-py-magenta" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" /></svg>
+                    </div>
+                    <!-- [TEXTO EDITÁVEL: TÍTULO CARD 2] -->
+                    <h3 class="text-lg font-bold mb-3 text-py-pastel uppercase tracking-wide">IA & Automação</h3>
+                    <!-- [TEXTO EDITÁVEL: TEXTO CARD 2] -->
+                    <p class="text-sm text-neutral-400">Palestras sobre Ciência de Dados, Engenharia de Prompt e automações modernas usando Python.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white/5 p-6 rounded-xl shadow-lg text-center card-hover border border-white/10 backdrop-blur-sm">
+                     <div class="flex justify-center items-center mb-4 h-16 w-16 mx-auto bg-py-dark rounded-full border border-white/10">
+                         <svg class="h-8 w-8 text-py-neon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>
+                    </div>
+                    <!-- [TEXTO EDITÁVEL: TÍTULO CARD 3] -->
+                    <h3 class="text-lg font-bold mb-3 text-py-pastel uppercase tracking-wide">Linguagem Python</h3>
+                    <!-- [TEXTO EDITÁVEL: TEXTO CARD 3] -->
+                    <p class="text-sm text-neutral-400">Capacitação em uma das principais linguagens para ciência de dados e IA, essencial para o setor.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white/5 p-6 rounded-xl shadow-lg text-center card-hover border border-white/10 backdrop-blur-sm">
+                     <div class="flex justify-center items-center mb-4 h-16 w-16 mx-auto bg-py-dark rounded-full border border-white/10">
+                         <svg class="h-8 w-8 text-py-magenta" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" /></svg>
+                    </div>
+                    <!-- [TEXTO EDITÁVEL: TÍTULO CARD 4] -->
+                    <h3 class="text-lg font-bold mb-3 text-py-pastel uppercase tracking-wide">Networking</h3>
+                    <!-- [TEXTO EDITÁVEL: TEXTO CARD 4] -->
+                    <p class="text-sm text-neutral-400">Contato direto com profissionais líderes da comunidade de tecnologia, impulsionando a troca de experiências.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proposta de Investimento (Visão de Valores de Ingressos) -->
+        <section id="scenarios" class="mb-16">
+            <!-- [TEXTO EDITÁVEL: TÍTULO DA SEÇÃO DE INVESTIMENTO] -->
+            <h2 class="text-3xl font-bold text-center mb-10 text-white tracking-wider">
+                Investimento
+            </h2>
+            <div class="flex justify-center">
+                
+                <div class="bg-white/5 rounded-xl shadow-2xl p-8 w-full max-w-2xl border border-white/10 card-hover relative overflow-hidden backdrop-blur-sm">
+                    <!-- Detalhe decorativo no canto -->
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-py-magenta/5 rounded-full blur-3xl"></div>
+                    
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 relative z-10">
+                        <div>
+                            <!-- [TEXTO EDITÁVEL: SELO DO INGRESSO] -->
+                            <span class="inline-block bg-py-magenta/10 text-py-magenta text-xs font-bold px-3 py-1.5 rounded-full mb-2 border border-py-magenta/20 uppercase tracking-wider">
+                                Evento Principal (Palestras)
+                            </span>
+                            <!-- [TEXTO EDITÁVEL: TÍTULO DO CARD DE VALORES] -->
+                            <h3 class="text-2xl font-bold text-white">Ingressos Individuais</h3>
+                        </div>
+                        <div class="mt-3 sm:mt-0 text-left sm:text-right">
+                            <!-- [TEXTO EDITÁVEL: INFORMAÇÕES DE VALORES NO TOPO DIREITO DO CARD] -->
+                            <span class="text-xs text-neutral-400 uppercase tracking-wider block">Valores de Inscrição</span>
+                            <div class="mt-1">
+                                <span class="text-xs text-neutral-400">Inteira:</span> <strong class="text-white text-lg mr-3">R$ 400,00</strong></br>
+                                <span class="text-xs text-neutral-400">Meia:</span> <strong class="text-py-pastel text-lg mr-3">R$ 200,00</strong>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- [TEXTO EDITÁVEL: DESCRIÇÃO DO ACESSO AOS 3 DIAS] -->
+                    
+                    <div class="text-left space-y-5 border-t border-white/10 pt-6 relative z-10">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <!-- [TEXTO EDITÁVEL: LISTA DE DETALHES DE ACESSO - Fino check Neon] -->
+                                <p class="font-bold text-white mb-2 uppercase text-xs tracking-wider text-py-pastel">Custos estimados:</p>
+                                <ul class="space-y-2 text-sm text-neutral-300">
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-py-neon">✓</span> Ingresso: R$ 400,00 (inteira) / R$ 200,00 (meia estudantes)
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-py-neon">✓</span> Passagem Aérea: (a cotar)
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-py-neon">✓</span> Hospedagem: (a cotar)
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="text-py-neon">✓</span> Ajuda de custo: (a cotar)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Botão de Compra de Ingressos (Preenchimento Pastel, hover Neon - Super corporativo) -->
+                        <div class="pt-4">
+                            <!-- [TEXTO EDITÁVEL: LINK E TEXTO DO BOTÃO PRINCIPAL] -->
+                            <a href="https://ingressos.python.org.br/pybr/" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-py-pastel hover:bg-py-neon text-py-dark font-extrabold py-4 px-6 rounded-lg transition-colors duration-300 shadow-lg uppercase tracking-wider text-sm">
+                                Venda de Ingressos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Iframe Site Oficial -->
+        <section class="mt-16">
+             <!-- [TEXTO EDITÁVEL: TÍTULO DA SEÇÃO DO PORTAL OFICIAL - Ícone Magenta] -->
+             <h3 class="text-2xl font-bold mb-6 text-center text-white uppercase tracking-wider flex items-center justify-center gap-2">
+                 <span class="text-py-magenta">🌐</span> Portal Oficial do Evento
+             </h3>
+            <div class="rounded-xl shadow-2xl overflow-hidden border border-white/10">
+                <!-- [TEXTO EDITÁVEL: URL DO IFRAME DO SITE OFICIAL DA PYTHON BRASIL] -->
+                <iframe src="https://2026.pythonbrasil.org.br/" class="w-full h-96 bg-py-dark border-0" title="Site Oficial Python Brasil 2026"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/5 bg-py-dark py-10 mt-20">
+        <!-- [TEXTO EDITÁVEL: TEXTO DO RODAPÉ] -->
+        <div class="container mx-auto px-6 text-center text-neutral-400">
+            <p class="text-sm">Agradeço o apoio e a consideração.</p>
+            <p class="text-xs text-neutral-600 mt-2">Atualizado em: 21/05/2026.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
